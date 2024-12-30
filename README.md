@@ -24,11 +24,11 @@ Excited to share my latest project, where I implemented a fully automated, scala
 ✅ Logs deployment details into Amazon RDS.  
 ✅ Adds the latest timestamp as a record in DynamoDB for comparison during future deployments when new code is uploaded.
 
-✅ **AWS Secrets Manager:** Securely stores credentials for EC2 and RDS to maintain strong security protocols.
-✅ **Amazon S3:** Acts as a centralized deployment source. Code files are versioned, and the new code is deployed in the EC2 Prod Servers.
-✅ **AWS EventBridge Scheduler:** Runs every 15 minutes to trigger Lambda for monitoring S3 and automating the deployment process.
-✅ **Amazon EC2:** Hosts the deployed application code via Apache Web Server, replacing old files with new ones for seamless updates.
-✅ **Amazon RDS:** Stores deployment logs for auditing purposes.
+✅ **AWS Secrets Manager:** Securely stores credentials for EC2 and RDS to maintain strong security protocols.     
+✅ **Amazon S3:** Acts as a centralized deployment source. Code files are versioned, and the new code is deployed in the EC2 Prod Servers.    
+✅ **AWS EventBridge Scheduler:** Runs every 15 minutes to trigger Lambda for monitoring S3 and automating the deployment process.     
+✅ **Amazon EC2:** Hosts the deployed application code via Apache Web Server, replacing old files with new ones for seamless updates.     
+✅ **Amazon RDS:** Stores deployment logs for auditing purposes.    
 
 ## Key Outcomes and Takeaways
 ✅ Gained hands-on experience with event-driven architecture using AWS EventBridge.  
