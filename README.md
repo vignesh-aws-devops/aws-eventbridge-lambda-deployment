@@ -1,5 +1,3 @@
-# aws-eventbridge-lambda-deployment
-
 # 🌟 Advanced Automation Deployment using AWS EventBridge and Lambda 🚀
 
 ## ☁️✅ Event-driven Deployment Architecture
