@@ -44,4 +44,4 @@ This project showcases the power of integrating multiple AWS services to automat
 
 
 
-[Fee free to check it on LinkedIn](https://www.linkedin.com/posts/vignesh-kumar-80853320b_aws-cloudcomputing-devops-activity-7277623826006384642-ybqK?utm_source=share&utm_medium=member_desktop)
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vignesh-aws-devops/)  
