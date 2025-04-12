@@ -3,13 +3,12 @@ import pymysql
 import json
 from datetime import datetime
 
-# Constants
+
 S3_BUCKET_NAME = "test-deploy-lambda05"
 DYNAMODB_TABLE_NAME = "S3DeploymentTimestamps"
 SECRETS_MANAGER_SECRET_NAME = "arn:aws:secretsmanager:us-west-1:982723143439:secret:EC2-SECRET-KEY-YZnzpX"
 EC2_PUBLIC_IP = "54.153.21.7"
 
-# Initialize AWS clients
 s3_client = boto3.client('s3')
 dynamodb_client = boto3.client('dynamodb')
 secrets_client = boto3.client('secretsmanager')
